@@ -52,6 +52,6 @@
 .movie-info-body-container .movie-info-body-subcontainer .movie-info-description-container {
   display: flex;
   flex-direction: column;
-  row-gap: 0.5rem;
+  row-gap: 0.25rem;
   max-width: 800px;
 }/*# sourceMappingURL=MovieInfoBodyComponent.css.map */

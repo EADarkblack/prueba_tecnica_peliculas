@@ -1,0 +1,35 @@
+/*Colors*/
+
+$basicColorPrimary: #ffffff;
+$basicColorSecondary: #000000;
+$mainColorPrimary: #014da1;
+$negativeCalificationColor: #ff0000;
+$neutralCalificationColor: #ffa500;
+$goodCalificationColor: #008000;
+
+//TODO: borrar los colores que no se necesitan
+$barGraphListColorPrimary: #868686;
+$nbBackgroundColor: #f6f6f6;
+$scrollBarColorPrimary: #42ffff;
+
+/*Colors Transparency*/
+
+$basicColorPrimaryOpa: #ffffffda;
+
+/*Hover Colors*/
+
+/*Button Color Effect*/
+
+/*Styles*/
+
+* {
+  margin: 0;
+}
+
+/*Responsive - breakpoints*/
+$mobileSm: 320px;
+$mobileStandard: 480px;
+$tabletSm: 768px;
+$tabletStandard: 1024px;
+$screenSm: 1200px;
+$screenHd: 1920px;

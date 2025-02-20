@@ -1,0 +1,49 @@
+/*Colors*/
+/*Colors Transparency*/
+/*Hover Colors*/
+/*Button Color Effect*/
+/*Styles*/
+* {
+  margin: 0;
+}
+
+/*Responsive - breakpoints*/
+.card-container {
+  max-width: 15rem;
+}
+.card-container .card-subcontainer {
+  position: relative;
+}
+.card-container .card-subcontainer .card-img {
+  height: 17rem;
+  width: 12rem;
+}
+.card-container .card-subcontainer .card-content-container {
+  max-width: 10rem;
+}
+.card-container .card-subcontainer .card-rating-container {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: #ff0000;
+  border-radius: 100%;
+  padding: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container .card-subcontainer .card-rating-container.red {
+  background-color: #ff0000;
+}
+.card-container .card-subcontainer .card-rating-container.yellow {
+  background-color: #ffa500;
+}
+.card-container .card-subcontainer .card-rating-container.green {
+  background-color: #008000;
+}
+.card-container .card-subcontainer .card-rating-number {
+  font-weight: bold;
+  color: #ffffff;
+}/*# sourceMappingURL=CardComponent.css.map */

@@ -1,0 +1,7 @@
+@import "../../sass/variables";
+
+.card-grid-container {
+  max-width: $screenSm;
+  display: flex;
+  justify-content: center;
+}

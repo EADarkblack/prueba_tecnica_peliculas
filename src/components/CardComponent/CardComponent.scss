@@ -1,0 +1,43 @@
+@import "../../sass/variables";
+
+.card-container {
+  max-width: 15rem;
+  .card-subcontainer {
+    position: relative;
+    .card-img {
+      height: 17rem;
+      width: 12rem;
+    }
+    .card-content-container {
+      max-width: 10rem;
+    }
+    .card-rating-container {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      background-color: $negativeCalificationColor;
+      border-radius: 100%;
+      padding: 0.5rem;
+      width: 1.5rem;
+      height: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &.red {
+        background-color: $negativeCalificationColor;
+      }
+
+      &.yellow {
+        background-color: $neutralCalificationColor;
+      }
+
+      &.green {
+        background-color: $goodCalificationColor;
+      }
+    }
+    .card-rating-number {
+      font-weight: bold;
+      color: $basicColorPrimary;
+    }
+  }
+}

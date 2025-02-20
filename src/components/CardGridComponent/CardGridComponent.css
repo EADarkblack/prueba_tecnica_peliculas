@@ -1,0 +1,15 @@
+/*Colors*/
+/*Colors Transparency*/
+/*Hover Colors*/
+/*Button Color Effect*/
+/*Styles*/
+* {
+  margin: 0;
+}
+
+/*Responsive - breakpoints*/
+.card-grid-container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=CardGridComponent.css.map */

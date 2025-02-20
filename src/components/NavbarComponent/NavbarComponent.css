@@ -1,0 +1,20 @@
+/*Colors*/
+/*Colors Transparency*/
+/*Hover Colors*/
+/*Button Color Effect*/
+/*Styles*/
+* {
+  margin: 0;
+}
+
+/*Responsive - breakpoints*/
+.navbar-container {
+  width: "100%" !important;
+  display: "flex" !important;
+  justify-content: "center" !important;
+  background-color: #014da1 !important;
+}
+.navbar-container .logo {
+  height: 2.5rem;
+  width: auto;
+}/*# sourceMappingURL=NavbarComponent.css.map */

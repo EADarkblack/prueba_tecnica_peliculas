@@ -1,0 +1,21 @@
+/*Colors*/
+/*Colors Transparency*/
+/*Hover Colors*/
+/*Button Color Effect*/
+/*Styles*/
+* {
+  margin: 0;
+}
+
+/*Responsive - breakpoints*/
+.home-body-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1rem;
+}
+.home-body-container .home-body-title {
+  color: #014da1;
+}/*# sourceMappingURL=HomeBodyComponent.css.map */

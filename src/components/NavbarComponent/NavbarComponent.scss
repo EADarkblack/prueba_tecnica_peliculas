@@ -1,0 +1,12 @@
+@import "../../sass/variables";
+
+.navbar-container {
+  width: "100%" !important;
+  display: "flex" !important;
+  justify-content: "center" !important;
+  background-color: $mainColorPrimary !important;
+  .logo {
+    height: 2.5rem;
+    width: auto;
+  }
+}

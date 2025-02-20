@@ -1,0 +1,57 @@
+/*Colors*/
+/*Colors Transparency*/
+/*Hover Colors*/
+/*Button Color Effect*/
+/*Styles*/
+* {
+  margin: 0;
+}
+
+/*Responsive - breakpoints*/
+.movie-info-body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movie-info-body-container .movie-info-body-subcontainer {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding: 2.5rem 2rem;
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+  box-shadow: 0 0.25rem 0.75rem #e6e6e6;
+  background-color: #ffffff;
+}
+.movie-info-body-container .movie-info-body-subcontainer .movie-info-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.movie-info-body-container .movie-info-body-subcontainer .movie-info-title {
+  color: #014da1;
+}
+.movie-info-body-container .movie-info-body-subcontainer .movie-info-favorite-button-container {
+  color: #014da1;
+}
+.movie-info-body-container .movie-info-body-subcontainer .movie-info-details-container {
+  display: flex;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+  align-items: flex-start;
+}
+.movie-info-body-container .movie-info-body-subcontainer .movie-info-img {
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  height: "auto";
+}
+.movie-info-body-container .movie-info-body-subcontainer .movie-info-description-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  max-width: 800px;
+}/*# sourceMappingURL=MovieInfoBodyComponent.css.map */

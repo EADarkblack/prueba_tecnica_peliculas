@@ -1,0 +1,91 @@
+@import "../../sass/variables";
+
+.filter-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  .search-container {
+    display: flex;
+    width: 100%;
+    .search-input-dark {
+      .MuiOutlinedInput-root {
+        fieldset {
+          border-color: $basicColorPrimary;
+        }
+
+        &:hover fieldset {
+          border-color: $basicColorPrimary;
+        }
+
+        &.Mui-focused fieldset {
+          border-color: $basicColorPrimary;
+        }
+      }
+
+      .MuiInputLabel-root {
+        color: $basicColorPrimary;
+      }
+
+      .MuiInputLabel-root.Mui-focused {
+        color: $basicColorPrimary;
+      }
+
+      .MuiOutlinedInput-input {
+        color: $basicColorPrimary;
+      }
+    }
+  }
+  .filter-container {
+    display: flex;
+    column-gap: 1rem;
+    width: 100%;
+    .filter-input-dark {
+      .MuiOutlinedInput-root {
+        fieldset {
+          border-color: $basicColorPrimary;
+        }
+
+        &:hover fieldset {
+          border-color: $basicColorPrimary;
+        }
+
+        &.Mui-focused fieldset {
+          border-color: $basicColorPrimary;
+        }
+      }
+
+      .MuiInputLabel-root {
+        color: $basicColorPrimary;
+      }
+
+      .MuiInputLabel-root.Mui-focused {
+        color: $basicColorPrimary;
+      }
+
+      .MuiOutlinedInput-input {
+        color: $basicColorPrimary;
+      }
+
+      .MuiAutocomplete-option {
+        color: $basicColorPrimary;
+        background-color: $basicColorPrimary;
+
+        &:hover {
+          background-color: $basicColorPrimary;
+        }
+      }
+      .MuiSvgIcon-root {
+        color: $basicColorPrimary !important;
+      }
+
+      .MuiOutlinedInput-root.Mui-focused .MuiSvgIcon-root {
+        color: $basicColorPrimary !important;
+      }
+    }
+  }
+}

@@ -1,7 +1,4 @@
 /*Colors*/
-/*Colors Transparency*/
-/*Hover Colors*/
-/*Button Color Effect*/
 /*Styles*/
 * {
   margin: 0;
@@ -13,8 +10,18 @@
   display: "flex" !important;
   justify-content: "center" !important;
   background-color: #014da1 !important;
+  align-items: center;
+}
+.navbar-container .navbar-subcontainer {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
 }
 .navbar-container .logo {
   height: 2.5rem;
   width: auto;
+}
+
+.dark {
+  background-color: #000000 !important;
 }/*# sourceMappingURL=NavbarComponent.css.map */

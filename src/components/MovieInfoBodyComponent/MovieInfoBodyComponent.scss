@@ -23,6 +23,7 @@
     }
     .movie-info-title {
       color: $mainColorPrimary;
+      font-weight: bold;
     }
     .movie-info-favorite-button-container {
       color: $mainColorPrimary;
@@ -45,4 +46,8 @@
       max-width: 800px;
     }
   }
+}
+
+.movie-info-body-container-dark {
+  background-color: lighten($basicColorSecondary, $amount: 15);
 }

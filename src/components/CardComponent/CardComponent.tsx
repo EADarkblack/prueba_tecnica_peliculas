@@ -4,7 +4,18 @@ import { useNavigate } from "react-router";
 //Style
 import "./CardComponent.css";
 
-const CardComponent = () => {
+//Types
+type CardComponentProps = {
+  cardData: {
+    id: number;
+    poster_path: string;
+    title: string;
+    release_date: string;
+    vote_average: number;
+  };
+};
+
+const CardComponent: React.FC<CardComponentProps> = ({ cardData }) => {
   const history = useNavigate();
 
   //Dependiendo del valor de la calificacion, devuelve el color que le corresponde
@@ -14,38 +25,36 @@ const CardComponent = () => {
     return "red";
   };
 
-  const ratingRaw = (Math.random() * 9 + 1).toFixed(1);
-
-  //Convierte el valor a un tipo numero
-  const rating = +ratingRaw;
-
   //Valida si el numero es de entero o decimal, si es entero lo redondea
-  const formattedRating = Number.isInteger(rating)
-    ? rating.toFixed(0)
-    : ratingRaw;
+  const formattedRating = Number.isInteger(cardData?.vote_average)
+    ? cardData?.vote_average.toFixed(0)
+    : cardData?.vote_average.toFixed(1);
 
-  const handleRedirect = () => {
-    history("/detalle-pelicula");
+  const handleRedirect = (id: number) => {
+    history(`/detalle-pelicula/${id}`);
   };
 
   return (
-    <Card className="card-container" onClick={handleRedirect}>
+    <Card
+      className="card-container"
+      onClick={() => handleRedirect(cardData?.id)}
+    >
       <CardActionArea className="card-subcontainer">
         <img
           className="card-img"
-          src="https://picsum.photos/200"
-          alt="movie thumbnail"
+          src={`https://image.tmdb.org/t/p/w200${cardData?.poster_path}`}
+          alt={cardData?.title}
         />
         <CardContent className="card-content-container">
           <Typography variant="body1" component="div">
-            Hola mundo
+            {cardData?.title}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Año de lanzamiento: 1969
+            Año de lanzamiento: {cardData?.release_date.split("-")[0]}
           </Typography>
           <div
             className={`card-rating-container ${getRatingColor(
-              Number(rating)
+              cardData?.vote_average
             )}`}
           >
             <Typography

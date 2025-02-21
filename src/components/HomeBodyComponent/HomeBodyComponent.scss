@@ -10,4 +10,11 @@
   .home-body-title {
     color: $mainColorPrimary;
   }
+  .home-body-title-dark {
+    color: $basicColorPrimary;
+  }
+}
+
+.home-body-container-dark {
+  background-color: lighten($basicColorSecondary, $amount: 10);
 }

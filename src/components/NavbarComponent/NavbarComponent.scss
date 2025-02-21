@@ -5,8 +5,18 @@
   display: "flex" !important;
   justify-content: "center" !important;
   background-color: $mainColorPrimary !important;
+  align-items: center;
+  .navbar-subcontainer {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+  }
   .logo {
     height: 2.5rem;
     width: auto;
   }
+}
+
+.dark {
+  background-color: $basicColorSecondary !important;
 }

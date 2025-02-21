@@ -9,7 +9,7 @@ const AppRouter = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomeScreen />} />
-        <Route path="/detalle-pelicula" element={<MovieInfoScreen />} />
+        <Route path="/detalle-pelicula/:id" element={<MovieInfoScreen />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>

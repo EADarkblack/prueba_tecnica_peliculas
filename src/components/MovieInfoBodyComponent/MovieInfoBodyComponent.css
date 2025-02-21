@@ -1,7 +1,4 @@
 /*Colors*/
-/*Colors Transparency*/
-/*Hover Colors*/
-/*Button Color Effect*/
 /*Styles*/
 * {
   margin: 0;
@@ -33,6 +30,7 @@
 }
 .movie-info-body-container .movie-info-body-subcontainer .movie-info-title {
   color: #014da1;
+  font-weight: bold;
 }
 .movie-info-body-container .movie-info-body-subcontainer .movie-info-favorite-button-container {
   color: #014da1;
@@ -54,4 +52,8 @@
   flex-direction: column;
   row-gap: 0.25rem;
   max-width: 800px;
+}
+
+.movie-info-body-container-dark {
+  background-color: #262626;
 }/*# sourceMappingURL=MovieInfoBodyComponent.css.map */

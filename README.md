@@ -1,6 +1,6 @@
 # WIKICINE - Prueba Técnica Lista de Peliculas
 
-## Intalación:
+## Instalación:
 
 ### Primero debera clonar el proyecto y una vez hecho esto debera abrir una terminal dentro del proyecto con el siguiente comando:
 
